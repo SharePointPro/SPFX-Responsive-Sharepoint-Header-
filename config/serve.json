@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://southpacaerospace.sharepoint.com/certifications/SitePages/Home.aspx",
+      "customActions": {
+        "2c4ee17f-88e6-4730-8bf4-a159a2bbc72a": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "headerAndFooterExtension": {
+      "pageUrl": "https://southpacaerospace.sharepoint.com/certifications/SitePages/Home.aspx",
+      "customActions": {
+        "2c4ee17f-88e6-4730-8bf4-a159a2bbc72a": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.expandButtonWrapper{
+    display: none;
+}
+
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+    .expandButtonWrapper {
+        display: block;
+    }
+    :global(#spLeftNav) {
+        margin-left: -227px;
+    }
+    :global(.showNav){
+        margin-left: 0 !important;
+    }
+}
+
+.expandButtonWrapper {
+    padding: 15px 28px 5px;
+}
+.expandButton {
+    font-size: 20px !important;
+    cursor: pointer;
+}
